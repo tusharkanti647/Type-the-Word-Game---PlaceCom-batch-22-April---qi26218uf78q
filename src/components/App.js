@@ -16,9 +16,9 @@ useEffect(()=>{
 
   const handleFormSubmit=()=>{
     if(word===userInput){
-      setResult("You Won!");
+      setResult("You won!");
     }else{
-      setResult("You Lost!");
+      setResult("You lost!");
     }
   }
 
